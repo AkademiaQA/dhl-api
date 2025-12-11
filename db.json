@@ -1,0 +1,433 @@
+{
+  "shipments": [
+    {
+      "id": 2,
+      "sender": {
+        "name": "Marek Piotrowski",
+        "phone": "+48 505 123 111",
+        "address": {
+          "street": "Dębowa 14",
+          "city": "Poznań",
+          "postalCode": "60-222",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Ewa Grzelak",
+        "phone": "+48 509 333 444",
+        "address": {
+          "street": "Akacjowa 8",
+          "city": "Łódź",
+          "postalCode": "90-333",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 1.2,
+        "dimensionsCm": {
+          "length": 25,
+          "width": 15,
+          "height": 8
+        },
+        "contents": "Elektronika"
+      },
+      "shipping": {
+        "service": "express",
+        "paymentMethod": "sender",
+        "insurance": true,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-02-01T08:00:00Z",
+          "status": "Nadana"
+        }
+      ],
+      "currentStatus": "Nadana"
+    },
+    {
+      "id": 3,
+      "sender": {
+        "name": "Karolina Bąk",
+        "phone": "+48 600 444 567",
+        "address": {
+          "street": "Wesoła 2",
+          "city": "Gdynia",
+          "postalCode": "81-111",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Piotr Mazur",
+        "phone": "+48 505 119 990",
+        "address": {
+          "street": "Słoneczna 6",
+          "city": "Wrocław",
+          "postalCode": "50-222",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 3,
+        "dimensionsCm": {
+          "length": 40,
+          "width": 25,
+          "height": 12
+        },
+        "contents": "Chemia gospodarcza"
+      },
+      "shipping": {
+        "service": "standard",
+        "paymentMethod": "receiver",
+        "insurance": false,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-01-15T11:00:00Z",
+          "status": "Nadana"
+        },
+        {
+          "timestamp": "2025-01-15T15:00:00Z",
+          "status": "Przyjęta w sortowni"
+        }
+      ],
+      "currentStatus": "Przyjęta w sortowni"
+    },
+    {
+      "id": 4,
+      "sender": {
+        "name": "Adam Zawadzki",
+        "phone": "+48 601 544 332",
+        "address": {
+          "street": "Polna 99",
+          "city": "Katowice",
+          "postalCode": "40-111",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Natalia Bochenek",
+        "phone": "+48 505 323 222",
+        "address": {
+          "street": "Nowa 15",
+          "city": "Białystok",
+          "postalCode": "15-333",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 0.8,
+        "dimensionsCm": {
+          "length": 18,
+          "width": 12,
+          "height": 6
+        },
+        "contents": "Biżuteria"
+      },
+      "shipping": {
+        "service": "standard",
+        "paymentMethod": "sender",
+        "insurance": false,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-03-01T09:00:00Z",
+          "status": "Nadana"
+        },
+        {
+          "timestamp": "2025-03-01T13:00:00Z",
+          "status": "Przyjęta w sortowni"
+        },
+        {
+          "timestamp": "2025-03-02T07:00:00Z",
+          "status": "Wydana do doręczenia"
+        }
+      ],
+      "currentStatus": "Wydana do doręczenia"
+    },
+    {
+      "id": 5,
+      "sender": {
+        "name": "Studio Kwiatowe",
+        "phone": "+48 607 987 222",
+        "address": {
+          "street": "Tulipanowa 10",
+          "city": "Opole",
+          "postalCode": "45-123",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Restauracja Aroma",
+        "phone": "+48 500 222 111",
+        "address": {
+          "street": "Rynek 1",
+          "city": "Warszawa",
+          "postalCode": "00-321",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 5.6,
+        "dimensionsCm": {
+          "length": 50,
+          "width": 40,
+          "height": 20
+        },
+        "contents": "Dekoracje"
+      },
+      "shipping": {
+        "service": "express",
+        "paymentMethod": "sender",
+        "insurance": true,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-04-01T08:00:00Z",
+          "status": "Nadana"
+        }
+      ],
+      "currentStatus": "Nadana"
+    },
+    {
+      "id": 6,
+      "sender": {
+        "name": "Firma SPORT",
+        "phone": "+48 511 777 543",
+        "address": {
+          "street": "Sportowa 8",
+          "city": "Szczecin",
+          "postalCode": "70-222",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Kamil Bor",
+        "phone": "+48 507 100 444",
+        "address": {
+          "street": "Kościelna 55",
+          "city": "Gdańsk",
+          "postalCode": "80-311",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 4.2,
+        "dimensionsCm": {
+          "length": 55,
+          "width": 45,
+          "height": 25
+        },
+        "contents": "Sprzęt sportowy"
+      },
+      "shipping": {
+        "service": "standard",
+        "paymentMethod": "sender",
+        "insurance": false,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-05-01T12:00:00Z",
+          "status": "Nadana"
+        },
+        {
+          "timestamp": "2025-05-01T18:00:00Z",
+          "status": "Przyjęta w sortowni"
+        },
+        {
+          "timestamp": "2025-05-02T06:30:00Z",
+          "status": "Wydana do doręczenia"
+        },
+        {
+          "timestamp": "2025-05-02T15:00:00Z",
+          "status": "Doręczona"
+        }
+      ],
+      "currentStatus": "Doręczona"
+    },
+    {
+      "id": 7,
+      "sender": {
+        "name": "PlayTech Games",
+        "phone": "+48 531 555 321",
+        "address": {
+          "street": "Pixelowa 1",
+          "city": "Warszawa",
+          "postalCode": "02-123",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Michał Żuk",
+        "phone": "+48 500 666 888",
+        "address": {
+          "street": "Klonowa 33",
+          "city": "Poznań",
+          "postalCode": "60-100",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 0.9,
+        "dimensionsCm": {
+          "length": 20,
+          "width": 15,
+          "height": 7
+        },
+        "contents": "Gry planszowe"
+      },
+      "shipping": {
+        "service": "standard",
+        "paymentMethod": "receiver",
+        "insurance": false,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-06-10T07:00:00Z",
+          "status": "Nadana"
+        }
+      ],
+      "currentStatus": "Nadana"
+    },
+    {
+      "id": 8,
+      "sender": {
+        "name": "Galeria Sztuki",
+        "phone": "+48 555 111 999",
+        "address": {
+          "street": "Artystów 4",
+          "city": "Kraków",
+          "postalCode": "30-333",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Dom Aukcyjny",
+        "phone": "+48 501 555 777",
+        "address": {
+          "street": "Złota 5",
+          "city": "Warszawa",
+          "postalCode": "00-200",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 7.5,
+        "dimensionsCm": {
+          "length": 70,
+          "width": 50,
+          "height": 10
+        },
+        "contents": "Obraz"
+      },
+      "shipping": {
+        "service": "express",
+        "paymentMethod": "sender",
+        "insurance": true,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-06-15T08:00:00Z",
+          "status": "Nadana"
+        }
+      ],
+      "currentStatus": "Nadana"
+    },
+    {
+      "id": 9,
+      "sender": {
+        "name": "AutoParts SA",
+        "phone": "+48 601 232 111",
+        "address": {
+          "street": "Mechaników 77",
+          "city": "Bydgoszcz",
+          "postalCode": "85-111",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "MotoSerwis",
+        "phone": "+48 606 777 111",
+        "address": {
+          "street": "Lipowa 45",
+          "city": "Lublin",
+          "postalCode": "20-333",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 10.2,
+        "dimensionsCm": {
+          "length": 80,
+          "width": 50,
+          "height": 25
+        },
+        "contents": "Części samochodowe"
+      },
+      "shipping": {
+        "service": "standard",
+        "paymentMethod": "sender",
+        "insurance": false,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-06-20T11:00:00Z",
+          "status": "Nadana"
+        }
+      ],
+      "currentStatus": "Nadana"
+    },
+    {
+      "id": 10,
+      "sender": {
+        "name": "Firma EduBooks",
+        "phone": "+48 505 987 555",
+        "address": {
+          "street": "Wiedzy 12",
+          "city": "Toruń",
+          "postalCode": "87-100",
+          "country": "PL"
+        }
+      },
+      "receiver": {
+        "name": "Biblioteka Publiczna",
+        "phone": "+48 503 345 222",
+        "address": {
+          "street": "Czytelnicza 8",
+          "city": "Kielce",
+          "postalCode": "25-222",
+          "country": "PL"
+        }
+      },
+      "package": {
+        "weightKg": 12.4,
+        "dimensionsCm": {
+          "length": 90,
+          "width": 60,
+          "height": 30
+        },
+        "contents": "Zestaw książek"
+      },
+      "shipping": {
+        "service": "express",
+        "paymentMethod": "sender",
+        "insurance": true,
+        "codAmount": 0
+      },
+      "statusHistory": [
+        {
+          "timestamp": "2025-06-25T12:00:00Z",
+          "status": "Nadana"
+        }
+      ],
+      "currentStatus": "Nadana"
+    }
+  ]
+}
